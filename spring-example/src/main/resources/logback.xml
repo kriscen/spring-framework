@@ -1,0 +1,22 @@
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<Pattern>
+				%blue(%file) l=%line %d{HH:mm:ss.SSS} [%t] %-5level %logger{36} %msg%n
+			</Pattern>
+		</encoder>
+	</appender>
+
+	<logger name="e" level="debug" additivity="false">
+		<appender-ref ref="STDOUT"/>
+	</logger>
+
+
+	<root leve="debug">
+		<appender-ref ref="STDOUT"/>
+	</root>
+
+
+
+
+</configuration>

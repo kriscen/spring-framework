@@ -593,7 +593,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 				logger.trace("Refreshing " + this);
 			}
 			else {
-				logger.debug("Refreshing " + getDisplayName());
+				logger.debug("Refreshing kris " + getDisplayName());
 			}
 		}
 
